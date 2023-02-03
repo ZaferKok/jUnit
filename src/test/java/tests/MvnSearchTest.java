@@ -13,7 +13,7 @@ public class MvnSearchTest {
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://mvnrepository.com/");
+        driver.get("https://google.com/");
         Thread.sleep(3000);
 
         WebElement searchBox = driver.findElement(By.xpath("//input[@class='textfield']"));

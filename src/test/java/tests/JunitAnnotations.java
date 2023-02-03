@@ -18,10 +18,12 @@ public class JunitAnnotations {
     public void acilis(){
         System.out.println("Ben her testten önce çalışırım");
     }
+
     @After
     public void kapanis(){
         System.out.println("Ben her testten sonra çalışırım");
     }
+
     @Test @Ignore
     public void jUnitIleIlkTest(){
         System.out.println("-------------------");
